@@ -1,19 +1,6 @@
-scene.setBackgroundColor(12)
-let mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Player)
+scene.setBackgroundColor(15)
+let mySprite = sprites.create(assets.image`myImage`, SpriteKind.Food)
+mySprite = sprites.create(assets.image`myImage`, SpriteKind.Food)
+mySprite = sprites.create(assets.image`myImage`, SpriteKind.Food)
+mySprite = sprites.create(assets.image`myImage`, SpriteKind.Food)
+mySprite = sprites.create(assets.image`myImage`, SpriteKind.Food)
